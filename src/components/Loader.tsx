@@ -3,10 +3,10 @@ import './Loader.css';
 
 const Loader = () => {
   return (
-    <>
-    <h2>Cargando</h2>
-    <span className="loader"></span>
-    </>
+    <div>
+      <h2>Cargando</h2>
+      <span className="loader"></span>
+    </div>
   );
 }
 
