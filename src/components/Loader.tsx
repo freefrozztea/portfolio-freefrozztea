@@ -4,7 +4,7 @@ import './Loader.css';
 const Loader = () => {
   return (
     <div className='loader-container'>
-      <h2>Cargando</h2>
+      {/* <h2>Cargando</h2> */}
       <span className="loader"></span>
     </div>
   );
