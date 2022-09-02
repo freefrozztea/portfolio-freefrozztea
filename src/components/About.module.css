@@ -20,6 +20,7 @@
 .header img {
   object-fit: contain;
   max-height: 3.5rem;
+  animation: bounce2 2 3s linear;
 }
 
 .header span {
@@ -71,12 +72,25 @@
 
 .socialMedia_links a{
   color: #ECDBBA;
-  font-size: 3rem;
-  filter: drop-shadow(.1rem .1rem 0.3rem #ECDBBA)
+  filter: drop-shadow(0 0 0.2rem #ECDBBA);
 }
 
-.socialMedia_links a > img {
-  max-height: 2rem;
-  object-fit: contain;
-} 
+.socialMedia_links a:hover{
+  animation: hithere infinite 2s linear;
+}
+
+@keyframes hithere {
+  30% { transform: scale(1.2); }
+  40%, 60% { transform: rotate(-20deg) scale(1.1); }
+  50% { transform: rotate(20deg) scale(1.1); }
+  70% { transform: rotate(0deg) scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+@keyframes bounce2 {
+	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+	40% {transform: translateY(-30px);}
+	60% {transform: translateY(-15px);}
+}
+
 
