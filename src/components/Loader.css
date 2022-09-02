@@ -82,3 +82,9 @@
     box-shadow: .2em -.2em 0 0 currentcolor;
   }
 }
+
+@media (prefers-color-scheme: light) {
+  .loader:after {
+    color: #C84B31;
+  }
+}
