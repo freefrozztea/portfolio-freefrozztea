@@ -16,7 +16,7 @@ const About = () => {
         <div>
           <p>Soy un desarrollador con experiencia en tecnologías como ReactJS, SvelteJS,  Javascript y Typescript</p>
           <p>Me gusta mucho la tecnología, los videojuegos y la comida</p>
-          <p>En mis tiempos libres suelo ir a jugar al fútbol, leer y/o escribir sobre cosas techie además de cuidar a mis bichos</p>
+          <p>En mis tiempos libres suelo ir a jugar al fútbol, leer y/o escribir sobre cosas techie</p>
           <p>Actualmente trato de mejorar mis skills en Front-End para ofrecer diseños visualmente agradables y funcionales</p>
         </div>
       </div>
