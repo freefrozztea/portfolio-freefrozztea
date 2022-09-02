@@ -93,4 +93,18 @@
 	60% {transform: translateY(-12px);}
 }
 
+@media (prefers-color-scheme: light) {
+  .message_info {
+    border: 2px solid #2D4263;
+    color: #191919;
+    background-color: #C84B31;
+    font-size: 1.4rem;
+    padding: 1rem;
+  }
+
+  .socialMedia_links a{
+    color: #002a5bc0;
+    filter: drop-shadow(0.1rem 0.1rem 0.1rem #002a5bc0);
+  }
+}
 
