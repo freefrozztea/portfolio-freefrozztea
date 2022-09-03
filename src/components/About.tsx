@@ -21,7 +21,7 @@ const About = () => {
         </div>
       </div>
       <div className={moduleStyles.message}>
-        <p className={moduleStyles.message_info}>Actualmente este portfolio se encuentra en etapa de modificaciones, espero pronto tener algo súper increíble que mostrar</p>
+        <p className={moduleStyles.message_info}>Este portfolio se encuentra en etapa de modificaciones, espero pronto tener algo súper increíble que mostrar</p>
       </div>
       <div className={moduleStyles.socialMedia}>
         <p>Si querés conocer un poco más sobre mí, me podés encontrar acá:</p>
